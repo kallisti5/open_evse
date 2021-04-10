@@ -25,7 +25,9 @@ python:
   - "2.7"
 
 env:
-  - PIO_ENV=openevse
+  - PIO_ENV=openevse-eu
+    BUILD_ENV=platformio
+  - PIO_ENV=openevse-us
     BUILD_ENV=platformio
   - PIO_ENV=emonevse
     BUILD_ENV=platformio
